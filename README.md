@@ -68,3 +68,71 @@ Ejecutar pruebas:
 Endpoint base de verificacion:
 
 - `GET /api/health`
+
+
+### RESOLUCION PARCIAL 
+1) DIAGRAMA ENTIDAD-RELACION
+ Se realiza el diagrama siguiendo los lineamientos del parcial creando los roles, los colaboradores, los computadores los perifericos y cada cosa con sus respectivas caracteristicas
+
+<img width="1245" height="377" alt="image" src="https://github.com/user-attachments/assets/3b793773-913b-4838-89dc-96b6ced4a76c" />
+
+2) Construya las tablas diseñadas en su base de datos de PostgreSQL
+
+   desde la aplicacion de DBeaver se pueden observar las tablas correspondientes tras la insercion de datos insertados en cada tabla (
+
+   <img width="338" height="224" alt="image" src="https://github.com/user-attachments/assets/9c6e5f2f-0e04-485a-a600-f9e99e1d4aca" />
+
+
+3) inserte al menos 3 registros en cada tabla
+
+roles_permisos
+<img width="305" height="281" alt="image" src="https://github.com/user-attachments/assets/87214ffc-0abf-4ba6-ac74-618b153177a4" />
+
+Roles
+
+<img width="286" height="134" alt="image" src="https://github.com/user-attachments/assets/4c33882b-2d59-426d-b17b-970c4c218b51" />
+
+Permisos
+
+<img width="390" height="167" alt="image" src="https://github.com/user-attachments/assets/49396fef-8838-441a-869c-a3789c27f297" />
+
+
+Perifericos 
+
+<img width="999" height="119" alt="image" src="https://github.com/user-attachments/assets/5fe025c9-09e5-4065-955f-0f2c5aae02e0" />
+
+
+Computadores 
+
+<img width="920" height="126" alt="image" src="https://github.com/user-attachments/assets/a9630cd4-7d7b-441b-8b0d-744b1c05fff5" />
+
+
+Controladores 
+
+<img width="1156" height="126" alt="image" src="https://github.com/user-attachments/assets/3fd50ac9-cbc2-420d-b66d-17efd3902cac" />
+
+
+
+5) Crear diagrama de clases
+   
+ <img width="1276" height="674" alt="image" src="https://github.com/user-attachments/assets/adc6552a-cd8e-4112-8cef-fc5cbda03b72" />
+
+
+15 En Postman, cree una colección llamada Parcial T2.
+
+<img width="1519" height="627" alt="image" src="https://github.com/user-attachments/assets/23f346a8-8c2d-4d3c-a8a0-36601a933f79" />
+
+16. Ejecute el endpoint para consultar un computador a partir de un id.
+(Seleccione alguno de los que creó en el punto 3).
+
+Segun lo establecido en nuestra base de datos podemos comprobar que dentro del postman se evidencia que utilizando el Header de administrador podemos consultar el computador 1 
+
+<img width="918" height="64" alt="image" src="https://github.com/user-attachments/assets/d66a2f02-4a4b-4d2a-b95b-79346bfc2a52" />
+
+<img width="1065" height="730" alt="image" src="https://github.com/user-attachments/assets/4de531d4-ec62-41a4-940c-ab581dd1b1c6" />
+
+17. Tome captura a la respuesta recibida y adiciónela en el README.md
+<img width="784" height="472" alt="image" src="https://github.com/user-attachments/assets/febc49a0-85f2-4cb9-a3cd-46fd5a8f05ea" />
+
+18.  Revise el archivo logs/parcial-t2.log y tome captura del registro que debió 
+generarse al ejecutar el endpoint. Adicione la captura en el README.md 
