@@ -1,4 +1,4 @@
-# DOSW_ParcialT2_JuanVillegas
+# DOSW_ParcialT2_JuanVillegas-JuanLaverde
 
 Proyecto base del parcial practico de DOSW, preparado con Spring Boot y la estructura solicitada en los prerequisitos.
 
