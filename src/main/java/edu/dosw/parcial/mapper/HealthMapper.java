@@ -2,12 +2,10 @@ package edu.dosw.parcial.mapper;
 
 import edu.dosw.parcial.dto.HealthResponse;
 import edu.dosw.parcial.model.ApiStatus;
-import org.springframework.stereotype.Component;
+import org.mapstruct.Mapper;
 
-@Component
-public class HealthMapper {
+@Mapper(componentModel = "spring")
+public interface HealthMapper {
 
-    public HealthResponse toResponse(ApiStatus apiStatus) {
-        return new HealthResponse(apiStatus.status(), apiStatus.message());
-    }
+    HealthResponse toResponse(ApiStatus apiStatus);
 }
