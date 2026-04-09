@@ -1,4 +1,4 @@
-# DOSW_ParcialT2_JuanVillegas
+# DOSW_ParcialT2_JuanVillegas-JuanLaverde
 
 Proyecto base del parcial practico de DOSW, preparado con Spring Boot y la estructura solicitada en los prerequisitos.
 
@@ -118,4 +118,21 @@ Controladores
  <img width="1276" height="674" alt="image" src="https://github.com/user-attachments/assets/adc6552a-cd8e-4112-8cef-fc5cbda03b72" />
 
 
-   
+15 En Postman, cree una colección llamada Parcial T2.
+
+<img width="1519" height="627" alt="image" src="https://github.com/user-attachments/assets/23f346a8-8c2d-4d3c-a8a0-36601a933f79" />
+
+16. Ejecute el endpoint para consultar un computador a partir de un id.
+(Seleccione alguno de los que creó en el punto 3).
+
+Segun lo establecido en nuestra base de datos podemos comprobar que dentro del postman se evidencia que utilizando el Header de administrador podemos consultar el computador 1 
+
+<img width="918" height="64" alt="image" src="https://github.com/user-attachments/assets/d66a2f02-4a4b-4d2a-b95b-79346bfc2a52" />
+
+<img width="1065" height="730" alt="image" src="https://github.com/user-attachments/assets/4de531d4-ec62-41a4-940c-ab581dd1b1c6" />
+
+17. Tome captura a la respuesta recibida y adiciónela en el README.md
+<img width="784" height="472" alt="image" src="https://github.com/user-attachments/assets/febc49a0-85f2-4cb9-a3cd-46fd5a8f05ea" />
+
+18.  Revise el archivo logs/parcial-t2.log y tome captura del registro que debió 
+generarse al ejecutar el endpoint. Adicione la captura en el README.md 
